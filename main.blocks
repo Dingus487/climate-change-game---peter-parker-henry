@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="~[Q1HykqlDY#NLF1C!:{" x="0" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="8B+d15BOP5=43F5_TI!,">mySprite</variable><variable type="KIND_SpriteKind" id="S}lYNm%an/dC;O_o6RQt">Player</variable><variable type="KIND_SpriteKind" id="QuhG9+!ivNyka{^w4Omw">Projectile</variable><variable type="KIND_SpriteKind" id="-U]#oBo~?]z:L@2Wf.u)">Food</variable><variable type="KIND_SpriteKind" id="DbIxX!75H{U,_;=8frVt">Enemy</variable></variables><block type="pxt-on-start" id="-QM8IHmM0cdQ(P:?^0~Q" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="%JsX@.%R,~}AM)jKZ?j$"><field name="VAR" id="8B+d15BOP5=43F5_TI!,">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="bTCtLk-P~jjsNN`Z`w!I"><value name="img"><shadow type="screen_image_picker" id="Ag%0b??Jc1uZ`UXzirPU"><field name="img">img`
+. . . . . . b b b b . . . . . . 
+. . . . . . b 4 4 4 b . . . . . 
+. . . . . . b b 4 4 4 b . . . . 
+. . . . . b 4 b b b 4 4 b . . . 
+. . . . b d 5 5 5 4 b 4 4 b . . 
+. . . . b 3 2 3 5 5 4 e 4 4 b . 
+. . . b d 2 2 2 5 7 5 4 e 4 4 e 
+. . . b 5 3 2 3 5 5 5 5 e e e e 
+. . b d 7 5 5 5 3 2 3 5 5 e e e 
+. . b 5 5 5 5 5 2 2 2 5 5 d e e 
+. b 3 2 3 5 7 5 3 2 3 5 d d e 4 
+. b 2 2 2 5 5 5 5 5 5 d d e 4 . 
+b d 3 2 d 5 5 5 d d d 4 4 . . . 
+b 5 5 5 5 d d 4 4 4 4 . . . . . 
+4 d d d 4 4 4 . . . . . . . . . 
+4 4 4 4 . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Ag%0b??Jc1uZ`UXzirPU"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Ux[X.T(PqnJXe?0Ru@VB"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="ajG!s?f)mW_$3h{EoKC1"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="w.+^QlVm7ltgRx0!U#kJ"><field name="VAR" id="8B+d15BOP5=43F5_TI!,">mySprite</field></block></value></block></next></block></statement></block></xml>
